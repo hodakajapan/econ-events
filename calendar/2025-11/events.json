@@ -1,0 +1,7 @@
+[
+  {"id":"US_CPI_YOY","dateUTC":"2025-11-17T13:30:00Z","country":"US","impact":3,"category":"INFLATION","period":"2025-10","unit":"PCT_YOY","forecast":3.2,"previous":3.1,"source":"BLS","notes":null},
+  {"id":"US_NFP","dateUTC":"2025-11-07T13:30:00Z","country":"US","impact":3,"category":"LABOR","period":"2025-10","unit":"K","forecast":180,"previous":165,"source":"BLS","notes":null},
+  {"id":"JP_GDP_QOQ","dateUTC":"2025-11-18T23:50:00Z","country":"JP","impact":2,"category":"GROWTH","period":"2025-Q3","unit":"PCT_QOQ","forecast":0.3,"previous":0.2,"source":"CabinetOffice","notes":null},
+  {"id":"EU_CPI_YOY","dateUTC":"2025-11-19T10:00:00Z","country":"EU","impact":3,"category":"INFLATION","period":"2025-10","unit":"PCT_YOY","forecast":2.7,"previous":2.6,"source":"Eurostat","notes":null},
+  {"id":"US_PCE_YOY","dateUTC":"2025-11-28T13:30:00Z","country":"US","impact":3,"category":"INFLATION","period":"2025-10","unit":"PCT_YOY","forecast":2.8,"previous":2.9,"source":"BEA","notes":null}
+]
