@@ -1,0 +1,15 @@
+[
+  {
+    "id": "TEST_NOW",
+    "dateUTC": "2025-10-18T12:05:00Z",
+    "country": "US",
+    "impact": 3,
+    "category": "TEST",
+    "period": "2025-10",
+    "unit": "NOTE",
+    "forecast": null,
+    "previous": null,
+    "source": "test",
+    "notes": "5-min ahead fire test"
+  }
+]
