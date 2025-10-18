@@ -50,6 +50,19 @@
     "previous": null,
     "source": "test",
     "notes": "updated at 15:40"
+  },
+  {
+    "id": "TEST_NOW_f",
+    "dateUTC": "2025-10-18T09:50:00Z",
+    "country": "US",
+    "impact": 3,
+    "category": "TEST",
+    "period": "2025-10",
+    "unit": "NOTE",
+    "forecast": null,
+    "previous": null,
+    "source": "test",
+    "notes": "updated at 15:40"
   }
   
 ]
