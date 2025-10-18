@@ -76,6 +76,19 @@
     "previous": null,
     "source": "test",
     "notes": "updated at 15:40"
+  },
+  {
+    "id": "TEST_NOW_www9",
+    "dateUTC": "2025-10-19T11:50:00Z",
+    "country": "US",
+    "impact": 3,
+    "category": "TEST",
+    "period": "2025-10",
+    "unit": "NOTE4",
+    "forecast": null,
+    "previous": null,
+    "source": "test",
+    "notes": "updated at 15:40"
   }
   
 
