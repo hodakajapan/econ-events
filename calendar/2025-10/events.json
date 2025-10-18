@@ -1,46 +1,29 @@
 [
   {
-    "id": "TEST_NOW_a",
-    "dateUTC": "2025-10-18T12:05:00Z",
+    "event_id": "TEST_NOW_a",
+    "title": "Test Now A",
     "country": "US",
-    "impact": 3,
+    "importance": "HIGH",
     "category": "TEST",
-    "period": "2025-10",
-    "unit": "NOTE",
-    "forecast": null,
-    "previous": null,
-    "source": "test",
+    "scheduled_utc": "2025-10-18T12:05:00Z",
     "notes": "5-min ahead fire test"
-  }
-
-    {
-    "id": "TEST_NOW_b",
-    "dateUTC": "2025-10-18T9:55:00Z",
+  },
+  {
+    "event_id": "TEST_NOW_b",
+    "title": "Test Now B",
     "country": "EU",
-    "impact": 3,
+    "importance": "HIGH",
     "category": "TEST",
-    "period": "2025-10",
-    "unit": "NOTE",
-    "forecast": null,
-    "previous": null,
-    "source": "test",
+    "scheduled_utc": "2025-10-18T09:55:00Z",
     "notes": "5-min ahead fire test"
-  }
-
-      {
-    "id": "TEST_NOW_c",
-    "dateUTC": "2025-10-18T10:55:00Z",
+  },
+  {
+    "event_id": "TEST_NOW_c",
+    "title": "Test Now C",
     "country": "US",
-    "impact": 3,
+    "importance": "HIGH",
     "category": "TEST",
-    "period": "2025-10",
-    "unit": "NOTE",
-    "forecast": null,
-    "previous": null,
-    "source": "test",
+    "scheduled_utc": "2025-10-18T10:55:00Z",
     "notes": "5-min ahead fire test"
   }
-
-  
 ]
-
