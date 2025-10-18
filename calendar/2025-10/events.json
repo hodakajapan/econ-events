@@ -18,14 +18,29 @@
     "dateUTC": "2025-10-18T9:55:00Z",
     "country": "EU",
     "impact": 3,
-    "category": "TEST1",
+    "category": "TEST",
     "period": "2025-10",
     "unit": "NOTE",
     "forecast": null,
     "previous": null,
-    "source": "test1",
+    "source": "test",
     "notes": "5-min ahead fire test"
   }
+
+      {
+    "id": "TEST_NOW_c",
+    "dateUTC": "2025-10-18T10:55:00Z",
+    "country": "US",
+    "impact": 3,
+    "category": "TEST",
+    "period": "2025-10",
+    "unit": "NOTE",
+    "forecast": null,
+    "previous": null,
+    "source": "test",
+    "notes": "5-min ahead fire test"
+  }
+
   
 ]
 
