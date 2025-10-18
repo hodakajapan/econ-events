@@ -12,5 +12,20 @@
     "source": "test",
     "notes": "5-min ahead fire test"
   }
+
+    {
+    "id": "TEST_NOW",
+    "dateUTC": "2025-10-18T9:55:00Z",
+    "country": "EU",
+    "impact": 3,
+    "category": "TEST1",
+    "period": "2025-10",
+    "unit": "NOTE",
+    "forecast": null,
+    "previous": null,
+    "source": "test1",
+    "notes": "5-min ahead fire test"
+  }
+  
 ]
 
