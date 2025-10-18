@@ -38,4 +38,19 @@
     "source": "test",
     "notes": "5-min ahead fire test"
   }
+
+    {
+    "id": "TEST_NOW_d",
+    "dateUTC": "2025-10-18T8:35:00Z",
+    "country": "US",
+    "impact": 3,
+    "category": "TEST",
+    "period": "2025-10",
+    "unit": "NOTE",
+    "forecast": null,
+    "previous": null,
+    "source": "test",
+    "notes": "5-min ahead fire test"
+  }
+  
 ]
