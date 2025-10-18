@@ -45,7 +45,7 @@
     "impact": 3,
     "category": "TEST",
     "period": "2025-10",
-    "unit": "NOTE",
+    "unit": "NOTE1",
     "forecast": null,
     "previous": null,
     "source": "test",
@@ -58,12 +58,11 @@
     "impact": 3,
     "category": "TEST",
     "period": "2025-10",
-    "unit": "NOTE",
+    "unit": "NOTE2",
     "forecast": null,
     "previous": null,
     "source": "test",
     "notes": "updated at 15:40"
   }
 
-  
 ]
