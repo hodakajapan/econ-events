@@ -1,47 +1,33 @@
 [
   {
-    "id": "TEST_NOW_a",
-    "dateUTC": "2025-10-18T12:05:00Z",
+    "event_id": "US_CPI_YOY",
+    "title": "US CPI (YoY)",
     "country": "US",
-    "impact": 3,
-    "category": "TEST",
-    "period": "2025-10",
-    "unit": "NOTE",
-    "forecast": null,
-    "previous": null,
-    "source": "test",
-    "notes": "5-min ahead fire test"
+    "importance": 3,
+    "category": "INFLATION",
+    "date_utc": "2025-10-18T04:35:00Z",
+    "period": "2025-09",
+    "unit": "PCT_YOY",
+    "forecast": 3.2,
+    "previous": 3.1,
+    "source": "BLS"
   },
   {
-    "id": "TEST_NOW_b",
-    "dateUTC": "2025-10-18T09:55:00Z",
-    "country": "EU",
-    "impact": 3,
-    "category": "TEST",
-    "period": "2025-10",
-    "unit": "NOTE",
-    "forecast": null,
-    "previous": null,
-    "source": "test",
-    "notes": "5-min ahead fire test"
+    "event_id": "JP_GDP_QOQ",
+    "title": "Japan GDP (QoQ)",
+    "country": "JP",
+    "importance": 2,
+    "category": "GROWTH",
+    "date_utc": "2025-10-18T04:50:00Z",
+    "period": "2025-Q3",
+    "unit": "PCT_QOQ",
+    "forecast": 0.3,
+    "previous": 0.2,
+    "source": "CabinetOffice"
   },
   {
-    "id": "TEST_NOW_c",
-    "dateUTC": "2025-10-18T10:55:00Z",
-    "country": "US",
-    "impact": 3,
-    "category": "TEST",
-    "period": "2025-10",
-    "unit": "NOTE",
-    "forecast": null,
-    "previous": null,
-    "source": "test",
-    "notes": "5-min ahead fire test"
-  }
-
-    {
     "id": "TEST_NOW_d",
-    "dateUTC": "2025-10-18T8:35:00Z",
+    "dateUTC": "2025-10-18T08:35:00Z",
     "country": "US",
     "impact": 3,
     "category": "TEST",
@@ -52,5 +38,4 @@
     "source": "test",
     "notes": "5-min ahead fire test"
   }
-  
 ]
