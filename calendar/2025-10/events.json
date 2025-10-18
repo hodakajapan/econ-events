@@ -1,6 +1,6 @@
 [
   {
-    "id": "TEST_NOW0",
+    "id": "TEST_NOW_a",
     "dateUTC": "2025-10-18T12:05:00Z",
     "country": "US",
     "impact": 3,
@@ -14,7 +14,7 @@
   }
 
     {
-    "id": "TEST_NOW1",
+    "id": "TEST_NOW_b",
     "dateUTC": "2025-10-18T9:55:00Z",
     "country": "EU",
     "impact": 3,
