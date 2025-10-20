@@ -1,1 +1,36 @@
+name: Fetch Binance BTC (Spot Snapshot)
+on:
+  schedule:
+    - cron: "*/15 * * * *"   # 15分ごと
+  workflow_dispatch: {}
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
 
+      - name: Ensure folders
+        run: |
+          mkdir -p docs/prices/spot
+          mkdir -p scripts
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Write fetch_binance.py if missing (optional safety)
+        if: ${{ !hashFiles('scripts/fetch_binance.py') }}
+        run: |
+          echo "scripts/fetch_binance.py not found. Please commit the script." && exit 1
+
+      - name: Fetch BTCUSDT -> JSON
+        run: |
+          python scripts/fetch_binance.py --symbol BTCUSDT --limit 1440 --outdir docs/prices/spot
+
+      - name: Commit & Push
+        run: |
+          git config user.name "bot"
+          git config user.email "bot@local"
+          git add docs/prices/spot/*.json
+          git commit -m "update btc snapshot" || echo "no changes"
+          git push
