@@ -1,11 +1,11 @@
 [
   {
     "id": "US_CPI_YOY0111",
-    "dateUTC": "2025-10-20T4:50:00Z",
+    "dateUTC": "2025-10-20T4:55:00Z",
     "country": "US",
     "impact": 3,
     "category": "INFLATION",
-    "period": "2025-09",
+    "period": "2025-10",
     "unit": "PCT_YOY",
     "forecast": 3.2,
     "previous": 3.1,
@@ -14,7 +14,7 @@
   },
   {
     "id": "JP_GDP_QOQ",
-    "dateUTC": "2025-10-18T04:50:00Z",
+    "dateUTC": "2025-10-20T10:00:00Z",
     "country": "JP",
     "impact": 2,
     "category": "GROWTH",
